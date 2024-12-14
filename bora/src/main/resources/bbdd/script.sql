@@ -1,0 +1,15 @@
+CREATE TABLE CORREDOR (
+    id INT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    fotoURL VARCHAR(100)
+);
+
+INSERT INTO corredor VALUES (1, 'Pascal Ackermann', NULL);
+
+CREATE TABLE CARRERA (
+    id INT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    categoria VARCHAR(100) NOT NULL,
+    worldtour BOOLEAN NOT NULL,
+    pais VARCHAR(100) NOT NULL
+);
