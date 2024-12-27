@@ -1,42 +1,34 @@
 package com.bora.model;
 
+import java.io.Serializable;
+
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
 
-//@Entity
-public class Victoria {
-
+@Entity
+@Table(name = "victoria")
+public class Victoria implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false)
     private Long id;
-    private Corredor corredor;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "carrera", nullable = false)
     private Carrera carrera;
-    private String temporada;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "temporada_corredor", nullable = false)
+    private TemporadaCorredor temporadaCorredor;
+    @Column(name = "etapa", nullable = false)
     private boolean etapa;
-    private boolean TT;
-
-     // Default constructor
-     public Victoria() {}
-
-     // Parameterized constructor
-     public Victoria(Long id, Corredor corredor, Carrera carrera, String temporada, boolean etapa, boolean TT) {
-         this.id = id;
-         this.corredor = corredor;
-         this.carrera = carrera;
-         this.temporada = temporada;
-         this.etapa = etapa;
-         this.TT = TT;
-     }
-
-    public Corredor getCorredor() {
-        return corredor;
-    }
-
-    public void setCorredor(Corredor corredor) {
-        this.corredor = corredor;
-    }
+    @Column(name = "tt", nullable = false)
+    private boolean tt;
 
     public Carrera getCarrera() {
         return carrera;
@@ -46,12 +38,12 @@ public class Victoria {
         this.carrera = carrera;
     }
 
-    public String getTemporada() {
-        return temporada;
+    public TemporadaCorredor getTemporadaCorredor() {
+        return temporadaCorredor;
     }
 
-    public void setTemporada(String temporada) {
-        this.temporada = temporada;
+    public void setTemporadaCorredor(TemporadaCorredor temporadaCorredor) {
+        this.temporadaCorredor = temporadaCorredor;
     }
 
     public boolean isEtapa() {
@@ -63,10 +55,18 @@ public class Victoria {
     }
 
     public boolean isTT() {
-        return TT;
+        return tt;
     }
 
-    public void setTT(boolean TT) {
-        this.TT = TT;
+    public void setTT(boolean tt) {
+        this.tt = tt;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

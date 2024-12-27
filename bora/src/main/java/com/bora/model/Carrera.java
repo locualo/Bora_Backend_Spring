@@ -1,27 +1,47 @@
 package com.bora.model;
 
+import java.io.Serializable;
+import java.util.List;
+
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "carrera")
-public class Carrera {
+public class Carrera implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", nullable = false)
     private Long id;
+    @Column(name = "nombre", nullable = false, length = 100)
     private String nombre;
-    private String categoria;
+    @JoinColumn(name = "categoria", nullable = false)
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Categoria categoria;
+    @Column(name = "worldtour", nullable = false)
     private boolean worldTour;
-    private String pais;
+    @JoinColumn(name = "pais", nullable = false)
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Pais pais;
+    @OneToMany(mappedBy = "carrera")
+    private List<Puestometro> puestometro;
+    @OneToMany(mappedBy = "carrera")
+    private List<Victoria> victoria;
 
     // Default constructor
-    public Carrera() {}
+    public Carrera() {
+    }
 
     // Parameterized constructor
-    public Carrera(Long id, String nombre, String categoria, boolean worldTour, String pais) {
+    public Carrera(Long id, String nombre, Categoria categoria, boolean worldTour, Pais pais) {
         this.id = id;
         this.nombre = nombre;
         this.categoria = categoria;
@@ -46,11 +66,11 @@ public class Carrera {
         this.nombre = nombre;
     }
 
-    public String getCategoria() {
+    public Categoria getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(String categoria) {
+    public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
 
@@ -62,11 +82,27 @@ public class Carrera {
         this.worldTour = worldTour;
     }
 
-    public String getPais() {
+    public Pais getPais() {
         return pais;
     }
 
-    public void setPais(String pais) {
+    public void setPais(Pais pais) {
         this.pais = pais;
+    }
+
+    public List<Puestometro> getPuestometro() {
+        return puestometro;
+    }
+
+    public void setPuestometro(List<Puestometro> puestometro) {
+        this.puestometro = puestometro;
+    }
+
+    public List<Victoria> getVictoria() {
+        return victoria;
+    }
+
+    public void setVictoria(List<Victoria> victoria) {
+        this.victoria = victoria;
     }
 }

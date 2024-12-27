@@ -2,11 +2,15 @@ package com.bora.service;
 
 import java.util.List;
 
+import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bora.model.Corredor;
+import com.bora.model.Pais;
+import com.bora.op.CorredorPorNombre;
 import com.bora.repository.CorredorRepository;
+import com.bora.repository.PaisRepository;
 
 @Service
 public class ServiceImpl {
@@ -14,11 +18,22 @@ public class ServiceImpl {
     @Autowired
     private CorredorRepository corredorRepository;
 
-    public Corredor recuperarCorredorPorNombre(String nombre) {
-        return corredorRepository.findCorredorByName(nombre);
+    @Autowired
+    private PaisRepository paisRepository;
+
+    public Corredor recuperarCorredorPorNombre(CorredorPorNombre nombre) {
+        return corredorRepository.findCorredorByName(null);
     }
 
-    public List<Corredor> recuperarTodosLosCorredores() {
-        return corredorRepository.findAll();
+    public CorredorPorNombre recuperarTodosLosCorredores() {
+        List<Corredor> corredores = corredorRepository.findAll();
+        CorredorPorNombre corredoresPorNombre = new CorredorPorNombre();
+        corredoresPorNombre.setNombre(corredores.stream().map(Corredor::getNombre).toList());
+        return corredoresPorNombre;
+    }
+
+    public List<Pais> recuperarTodosLosPaises() {
+        List<Pais> paises = paisRepository.findAll();
+        return paises;
     }
 }
