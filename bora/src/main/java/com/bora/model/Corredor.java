@@ -30,6 +30,8 @@ public class Corredor implements Serializable{
     private Pais pais;
     @OneToMany(mappedBy = "corredor", fetch = FetchType.LAZY)
     private List<TemporadaCorredor> temporadaCorredor;
+    @Column(name = "se_ha_dopado_alguna_vez", nullable = false)
+    private boolean setSeHaDopadoAlgunaVez;
 
     // Default constructor
     public Corredor() {}
@@ -83,4 +85,11 @@ public class Corredor implements Serializable{
         this.temporadaCorredor = temporadaCorredor;
     }
 
+    public boolean getSeHaDopadoAlgunaVez() {
+        return setSeHaDopadoAlgunaVez;
+    }
+
+    public void setSeHaDopadoAlgunaVez(boolean setSeHaDopadoAlgunaVez) {
+        this.setSeHaDopadoAlgunaVez = setSeHaDopadoAlgunaVez;
+    }
 }

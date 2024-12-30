@@ -1,10 +1,14 @@
 package com.bora;
 
-import com.bora.excepciones.DatabaseException;
+import com.bora.excepciones.BoraException;
 import com.bora.op.comunes.Carrera_DTO;
 import com.bora.op.comunes.Categoria_DTO;
+import com.bora.op.comunes.Corredor_DTO;
+import com.bora.op.comunes.TemporadaCorredor_DTO;
 import com.bora.op.comunes.Pais_DTO;
+import com.bora.op.comunes.Puestometro_DTO;
 import com.bora.op.comunes.Temporada_DTO;
+import com.bora.op.comunes.Victoria_DTO;
 import com.bora.service.CreateEntityServiceImpl;
 
 import org.junit.jupiter.api.Disabled;
@@ -21,7 +25,7 @@ class CreateTestIT {
 
     @Disabled
     @Test
-    void testCreateTemporada() throws DatabaseException {
+    void testCreateTemporada() throws BoraException {
         // Arrange
         Temporada_DTO temporadaDTO = new Temporada_DTO();
         temporadaDTO.setId(1L);
@@ -65,4 +69,63 @@ class CreateTestIT {
         createEntityServiceImpl.createCarrera(carreraDTO);
     }
 
+    @Disabled
+    @Test
+    void testCreateCorredor() {
+        Corredor_DTO corredorDTO = new Corredor_DTO();
+        corredorDTO.setNombre("Borja María Martín");
+        corredorDTO.setFotoURL("");
+        corredorDTO.setPais(new Pais_DTO());
+        corredorDTO.getPais().setCodigo(15L);
+        corredorDTO.setSeHaDopadoAlgunaVez(false);
+
+        createEntityServiceImpl.createCorredor(corredorDTO);
+    }
+
+    @Disabled
+    @Test
+    void testCreateTemporadaCorredor() {
+        // Arrange
+        Temporada_DTO temporadaDTO = new Temporada_DTO();
+        temporadaDTO.setId(2028L);
+
+        Corredor_DTO corredorDTO = new Corredor_DTO();
+        corredorDTO.setId(43L);
+
+        TemporadaCorredor_DTO crearTemporadaCorredor = new TemporadaCorredor_DTO();
+        crearTemporadaCorredor.setTemporadaDTO(temporadaDTO);
+        crearTemporadaCorredor.setCorredorDTO(corredorDTO);
+
+        // Act
+        createEntityServiceImpl.createTemporadaCorredor(crearTemporadaCorredor);
+    }
+
+    @Disabled
+    @Test
+    void testCreateVictoria() {
+        Victoria_DTO victoriaDTO = new Victoria_DTO();
+        victoriaDTO.setEtapa(true);
+        victoriaDTO.setTt(false);
+        victoriaDTO.setTemporadaDTO(new Temporada_DTO());
+        victoriaDTO.getTemporadaDTO().setId(2028L);
+        victoriaDTO.setCarreraDTO(new Carrera_DTO());
+        victoriaDTO.getCarreraDTO().setId(1L);
+        victoriaDTO.setCorredorDTO(new Corredor_DTO());
+        victoriaDTO.getCorredorDTO().setId(48L);
+        createEntityServiceImpl.createVictoria(victoriaDTO);
+    }
+
+    @Disabled
+    @Test
+    void testCreatePuestometro() {
+        Puestometro_DTO puestometroDTO = new Puestometro_DTO();
+        puestometroDTO.setPuesto(10);
+        puestometroDTO.setCarrera(new Carrera_DTO());
+        puestometroDTO.getCarrera().setId(1L);
+        puestometroDTO.setCorredor(new Corredor_DTO());
+        puestometroDTO.getCorredor().setId(43L);
+        puestometroDTO.setTemporada(new Temporada_DTO());
+        puestometroDTO.getTemporada().setId(2028L);
+        createEntityServiceImpl.createPuestometro(puestometroDTO);
+    }
 }

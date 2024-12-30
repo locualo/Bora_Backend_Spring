@@ -3,6 +3,7 @@ package com.bora.op.comunes;
 import java.io.Serializable;
 
 public class Carrera_DTO implements Serializable {
+    private long id;
     private String nombre;
     private boolean worldTour;
     private Categoria_DTO categoria;
@@ -33,4 +34,11 @@ public class Carrera_DTO implements Serializable {
         this.pais = pais;
     }
 
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
 }
