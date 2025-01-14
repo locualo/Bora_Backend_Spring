@@ -2,7 +2,6 @@ package com.bora.service;
 
 import java.util.List;
 
-import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -33,7 +32,6 @@ public class ServiceImpl {
     }
 
     public List<Pais> recuperarTodosLosPaises() {
-        List<Pais> paises = paisRepository.findAll();
-        return paises;
+        return paisRepository.findAll();
     }
 }
