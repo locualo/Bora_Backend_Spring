@@ -1,0 +1,4067 @@
+{
+    "posiciones": [
+        {
+            "corredorid": 24,
+            "carreraid": 46,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "0a07"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 46,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "5279"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 14,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "0335"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 67,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "43df"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 2,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "594f"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 2,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "562f"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 2,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "eec4"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 2,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "5975"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 2,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "eacb"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 9,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "308c"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 37,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "4cc8"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 37,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "10cf"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 37,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "9a3c"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 37,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "84cd"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 15,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "e3bb"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 15,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "1d57"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 15,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "c82a"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 15,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "8484"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 8,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "9b56"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 5,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "7d9e"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 44,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "b489"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 44,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "79d1"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 11,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "fc76"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 11,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "239d"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 11,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "853b"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 11,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "8dd4"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 11,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "79e1"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 11,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "a6b7"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 11,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "c07a"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 1,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "5561"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 1,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "19ca"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 1,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "fbc8"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 1,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "b56c"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 1,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "9396"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 35,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "d311"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 13,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "a375"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 13,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "21fb"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 13,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "28a6"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 13,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "6b30"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 13,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "9b13"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 13,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "bede"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 48,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "fe33"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 12,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "d124"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 34,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "87de"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 47,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "2171"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 45,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "71f1"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 3,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "2de3"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 3,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "1322"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 3,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "48b7"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 103,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "30c3"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 105,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "1835"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 33,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "7fe4"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 33,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "da1c"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 69,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "30d2"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 69,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "af71"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 108,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "1aa6"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 47,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "359a"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 47,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "c94b"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 11,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "9630"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 16,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "c201"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 14,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "9231"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 14,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "c626"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 14,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "2404"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 44,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "5686"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 35,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "d32b"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 35,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "3354"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 35,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "6166"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 3,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "d358"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 3,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "2b2b"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 3,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "678c"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 90,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "bf47"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 21,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "686d"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 21,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "a710"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 14,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "75d0"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 30,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "1905"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 88,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "6c4f"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 88,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "69a6"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 88,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "295d"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 88,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "dca8"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 88,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "3d02"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 88,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "29ba"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 87,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "615d"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 51,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "b0da"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 37,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "892d"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 37,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "1d94"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 37,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "7aef"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 37,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "488b"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 37,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "f456"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 43,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "02d0"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 43,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "014d"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 43,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "8123"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 10,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "f0bc"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 10,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "34de"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 33,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "3fab"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 65,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "8244"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 65,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "99bf"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 65,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "e880"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 65,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "072a"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 85,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "f406"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 53,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "7beb"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "b847"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "d0f1"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "896c"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "67ce"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "bbda"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 1,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "749d"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 1,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "9f0e"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 1,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "a470"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 1,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "3ce4"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 76,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "1169"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 76,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "5652"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 48,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "b800"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 48,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "70dd"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 48,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "9689"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 48,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "b47a"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 48,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "6e3c"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 48,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "946b"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 34,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "2e41"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 16,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "cce2"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 16,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "6442"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 45,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "5c80"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 45,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "3db6"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 45,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "4df9"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 72,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "8567"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 72,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "41ff"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 72,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "7afb"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 72,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "9e81"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 3,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "28f9"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 3,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "6a5e"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 3,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "4302"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 3,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "9a49"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 3,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "c40f"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 86,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "ffc5"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 86,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "9bf2"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "40f3"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "22f0"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "439c"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "57e1"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 36,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "0ee0"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 107,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "6fec"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 107,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "ddce"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 109,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "2867"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 110,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "b9a0"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 10,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "f1af"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 2,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "7de6"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 2,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "d617"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 53,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "c0ac"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "b10f"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "5d48"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 59,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "d187"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 36,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "8d2d"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 36,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "ccbe"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 28,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "de70"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 36,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "be53"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 36,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "b997"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 36,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "3283"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 36,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "1d3d"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 56,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "7216"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 14,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "611d"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 22,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "1a63"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 94,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "5dd4"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 84,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "102f"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 23,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "ecc6"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 24,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "3006"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 81,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "f0c9"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 10,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "276e"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 7,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "9494"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 33,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "c1bc"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 33,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "6f27"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 85,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "5b00"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 85,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "ac75"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 57,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "262b"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 53,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "783b"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 59,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "1337"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 59,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "f6e0"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 59,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "5b55"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 6,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "5a24"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 6,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "f08a"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 6,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "7ad1"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 35,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "99ef"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 91,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "b669"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 81,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "e504"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 31,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "ab97"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 95,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "52e1"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 95,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "7c94"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 45,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "7cec"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 26,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "74db"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 36,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "4670"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 36,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "54d7"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 73,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "78e6"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 40,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "28ea"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 40,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "5a4f"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 74,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "4c71"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 75,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "9e6a"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 57,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "896d"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 59,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "4798"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 59,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "8dd6"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 59,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "fa23"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 59,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "9ae1"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 59,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "6ab7"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 76,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "e30d"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 76,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "72df"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 48,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "7dd3"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 48,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "4d9b"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 48,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "78bb"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 48,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "f357"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 34,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "9c15"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 16,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "d4c0"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 16,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "ec7e"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 45,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "0592"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 72,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "82ea"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 3,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "6357"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 59,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "3c04"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 66,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "d8d6"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 69,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "2593"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 47,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "e9f4"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 59,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "887c"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 115,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "8052"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 40,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "3c58"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 40,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "b535"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 2,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "15e3"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 2,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "75bb"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 2,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "dae6"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 2,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "6e8c"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 2,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "7e5c"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 2,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "b9a6"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 2,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "de1e"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 2,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "8d01"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 2,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "4630"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 71,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "e63c"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 71,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "a254"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 44,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "6035"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 1,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "c3d8"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 1,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "5aa5"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 13,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "0110"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 45,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "811b"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 45,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "72e6"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 3,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "6ebb"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 3,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "8552"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 3,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "2411"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 3,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "2980"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 3,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "279e"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 3,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "2f9d"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 3,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "346a"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 34,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "e390"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 45,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "bc5f"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 62,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "9597"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 40,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "3b6b"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 31,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "ee95"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 64,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "ae76"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 66,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "d733"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 51,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "d32c"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 63,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "4089"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 61,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "960b"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 61,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "53f3"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 32,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "603a"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 33,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "6930"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 65,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "ee51"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 59,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "487a"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 59,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "49bc"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 48,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "56d5"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 48,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "7f32"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 48,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "3c19"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 48,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "84e7"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 48,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "b587"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 48,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "bbbe"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 48,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "9137"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 35,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "2160"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 54,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "68e6"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 66,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "90e0"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 104,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "23f6"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 52,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "44d7"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 62,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "7c0c"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 62,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "61b1"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 62,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "fe1f"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 62,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "40b7"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 14,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "9a34"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 9,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "acb6"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 11,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "ed88"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 11,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "741e"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 57,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "1e59"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 57,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "24be"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 57,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "9dac"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 1,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "34a9"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 1,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "50ce"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 12,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "44d2"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 34,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "1b96"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 47,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "01bc"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 45,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "47b7"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 3,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "24c8"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 3,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "9f01"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 3,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "0e9d"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 54,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "04ae"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 54,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "e731"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 106,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "52b6"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 106,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "e891"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 107,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "6414"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 67,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "dd80"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 67,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "1708"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 2,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "c8a3"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 37,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "faf1"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 15,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "8fa6"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 68,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "18ad"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 33,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "ecd1"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 1,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "4b5b"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 1,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "a170"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 70,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "1ee2"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 16,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "0f60"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 16,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "c49d"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 16,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "255b"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 3,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "3768"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 69,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "ebb5"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 27,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "d290"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 66,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "6f1b"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 16,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "8931"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 15,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "087c"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 55,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "792a"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 50,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "c430"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 50,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "b0ac"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 52,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "7eb5"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 52,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "dc72"
+        },
+        {
+            "corredorid": 17,
+            "carreraid": 1,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "817f"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 14,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "aa9c"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 14,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "4892"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 2,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "704c"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 2,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "3211"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 79,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "be68"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 78,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "5f7a"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 15,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "56a7"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 33,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "1055"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 13,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "0baf"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 3,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "e03c"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 3,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "9224"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 54,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "b18e"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 54,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "422d"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 54,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "5deb"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 69,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "f454"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 69,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "09ce"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 45,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "af1d"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 40,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "39d0"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 40,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "c7e1"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 55,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "6b00"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 37,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "8cba"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 46,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "48f6"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 2,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "147e"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 2,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "e191"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 77,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "d148"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 10,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "d490"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 35,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "1aa1"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 35,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "2c94"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 13,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "3c5e"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 3,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "d5da"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 38,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "a0a4"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 59,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "c5db"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 66,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "ee66"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 66,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "fc13"
+        },
+        {
+            "corredorid": 11,
+            "carreraid": 66,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "ecdf"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 36,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "9d38"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 36,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "dcc4"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 40,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "16ce"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 40,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "c898"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 29,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "a265"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 2,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "7a59"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 41,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "23cb"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 23,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "1e25"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 37,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "b687"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 37,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "1b5e"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 10,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "3816"
+        },
+        {
+            "corredorid": 23,
+            "carreraid": 42,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "6b9e"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 40,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "dc9b"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 2,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "98ae"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 15,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "dc7d"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 59,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "b9ef"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 59,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "4b9f"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 59,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "c976"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 1,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "2e96"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 55,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "6059"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 34,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "9e0f"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 48,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "b77b"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 48,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "4a47"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 95,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "adba"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 40,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "8ce3"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 40,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "a347"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 71,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "53c1"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 66,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "df53"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 66,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "3395"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 44,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "a138"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 95,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "64a2"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 38,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "7a09"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 3,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "9a14"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 3,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "58dd"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 3,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "9e59"
+        },
+        {
+            "corredorid": 14,
+            "carreraid": 51,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "2e83"
+        },
+        {
+            "corredorid": 14,
+            "carreraid": 37,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "7ad1"
+        },
+        {
+            "corredorid": 14,
+            "carreraid": 37,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "1a51"
+        },
+        {
+            "corredorid": 14,
+            "carreraid": 52,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "c4d7"
+        },
+        {
+            "corredorid": 14,
+            "carreraid": 53,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "2b2a"
+        },
+        {
+            "corredorid": 14,
+            "carreraid": 55,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "4af3"
+        },
+        {
+            "corredorid": 14,
+            "carreraid": 50,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "e916"
+        },
+        {
+            "corredorid": 14,
+            "carreraid": 45,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "c50c"
+        },
+        {
+            "corredorid": 14,
+            "carreraid": 54,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "4a99"
+        },
+        {
+            "corredorid": 14,
+            "carreraid": 112,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "3e52"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 37,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "e396"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 37,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "8a00"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 80,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "ce1c"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 80,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "431a"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 103,
+            "temporada": 2025,
+            "etapa": false,
+            "crono": false,
+            "id": "4f6c"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 88,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "22c9"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 91,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "445c"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 1,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "c813"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 1,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "2240"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 1,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "88f4"
+        },
+        {
+            "corredorid": 33,
+            "carreraid": 2,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "d001"
+        },
+        {
+            "corredorid": 33,
+            "carreraid": 2,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "6fc4"
+        },
+        {
+            "corredorid": 33,
+            "carreraid": 1,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "e364"
+        },
+        {
+            "corredorid": 33,
+            "carreraid": 16,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "74b5"
+        },
+        {
+            "corredorid": 33,
+            "carreraid": 47,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "00e0"
+        },
+        {
+            "corredorid": 33,
+            "carreraid": 45,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "17a8"
+        },
+        {
+            "corredorid": 28,
+            "carreraid": 40,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "ddf7"
+        },
+        {
+            "corredorid": 28,
+            "carreraid": 92,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "f434"
+        },
+        {
+            "corredorid": 28,
+            "carreraid": 93,
+            "temporada": 2021,
+            "etapa": false,
+            "crono": false,
+            "id": "b00b"
+        },
+        {
+            "corredorid": 28,
+            "carreraid": 33,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "d50f"
+        },
+        {
+            "corredorid": 28,
+            "carreraid": 69,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "e489"
+        },
+        {
+            "corredorid": 15,
+            "carreraid": 49,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "70e5"
+        },
+        {
+            "corredorid": 15,
+            "carreraid": 12,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "1fd9"
+        },
+        {
+            "corredorid": 15,
+            "carreraid": 10,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "10fc"
+        },
+        {
+            "corredorid": 15,
+            "carreraid": 16,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "2fa1"
+        },
+        {
+            "corredorid": 21,
+            "carreraid": 56,
+            "temporada": 2020,
+            "etapa": false,
+            "crono": false,
+            "id": "1710"
+        },
+        {
+            "corredorid": 21,
+            "carreraid": 57,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "a232"
+        },
+        {
+            "corredorid": 21,
+            "carreraid": 58,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "2f0e"
+        },
+        {
+            "corredorid": 21,
+            "carreraid": 70,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "00c3"
+        },
+        {
+            "corredorid": 44,
+            "carreraid": 53,
+            "temporada": 2021,
+            "etapa": true,
+            "crono": false,
+            "id": "5b11"
+        },
+        {
+            "corredorid": 44,
+            "carreraid": 44,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "7cdb"
+        },
+        {
+            "corredorid": 44,
+            "carreraid": 70,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "0dd7"
+        },
+        {
+            "corredorid": 44,
+            "carreraid": 111,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "cc3a"
+        },
+        {
+            "corredorid": 20,
+            "carreraid": 14,
+            "temporada": 2020,
+            "etapa": true,
+            "crono": false,
+            "id": "7230"
+        },
+        {
+            "corredorid": 20,
+            "carreraid": 2,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "95bc"
+        },
+        {
+            "corredorid": 20,
+            "carreraid": 47,
+            "temporada": 2025,
+            "etapa": true,
+            "crono": false,
+            "id": "071d"
+        },
+        {
+            "corredorid": 8,
+            "carreraid": 55,
+            "temporada": 2022,
+            "etapa": false,
+            "crono": false,
+            "id": "1e82"
+        },
+        {
+            "corredorid": 8,
+            "carreraid": 55,
+            "temporada": 2022,
+            "etapa": true,
+            "crono": false,
+            "id": "4325"
+        },
+        {
+            "corredorid": 8,
+            "carreraid": 3,
+            "temporada": 2024,
+            "etapa": true,
+            "crono": false,
+            "id": "1b60"
+        },
+        {
+            "corredorid": 42,
+            "carreraid": 2,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "8e70"
+        },
+        {
+            "corredorid": 42,
+            "carreraid": 3,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "52a6"
+        },
+        {
+            "corredorid": 42,
+            "carreraid": 114,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "a292"
+        },
+        {
+            "corredorid": 32,
+            "carreraid": 39,
+            "temporada": 2023,
+            "etapa": false,
+            "crono": false,
+            "id": "b009"
+        },
+        {
+            "corredorid": 32,
+            "carreraid": 38,
+            "temporada": 2023,
+            "etapa": true,
+            "crono": false,
+            "id": "42c0"
+        },
+        {
+            "corredorid": 41,
+            "carreraid": 49,
+            "temporada": 2024,
+            "etapa": false,
+            "crono": false,
+            "id": "ebb7"
+        },
+        {
+            "corredorid": 41,
+            "carreraid": 49,
+            "temporada": 2026,
+            "etapa": false,
+            "crono": false,
+            "id": "6fcd"
+        },
+        {
+            "corredorid": 9,
+            "carreraid": 88,
+            "temporada": 2026,
+            "etapa": true,
+            "crono": false,
+            "id": "f400"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 33,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "170f"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 48,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "6d32"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 48,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "321a"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 48,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "bb2f"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 48,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "7f8f"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 48,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "b903"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 48,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "705e"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 48,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "add5"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 48,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "74d0"
+        },
+        {
+            "corredorid": 42,
+            "carreraid": 34,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "c265"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 109,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "32b4"
+        },
+        {
+            "corredorid": 42,
+            "carreraid": 10,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "151b"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 10,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "aac1"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 10,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "2b79"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 11,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "050d"
+        },
+        {
+            "corredorid": 44,
+            "carreraid": 84,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "b328"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 111,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "e870"
+        },
+        {
+            "corredorid": 13,
+            "carreraid": 16,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "50e0"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 21,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "857a"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 22,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "12fb"
+        },
+        {
+            "corredorid": 29,
+            "carreraid": 23,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "1d56"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 6,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "3859"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 15,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "49d7"
+        },
+        {
+            "corredorid": 9,
+            "carreraid": 85,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "30ad"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 15,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "f048"
+        },
+        {
+            "corredorid": 47,
+            "carreraid": 67,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "3fc6"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 112,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "5a44"
+        },
+        {
+            "corredorid": 8,
+            "carreraid": 71,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "6494"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 12,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "e870"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 38,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "0e5a"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 38,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "8625"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 116,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "30ff"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 116,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "78bd"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 116,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "8132"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 116,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "278a"
+        },
+        {
+            "corredorid": 42,
+            "carreraid": 2,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "0949"
+        },
+        {
+            "corredorid": 42,
+            "carreraid": 2,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "1b38"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 2,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "8818"
+        },
+        {
+            "corredorid": 42,
+            "carreraid": 2,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "d589"
+        },
+        {
+            "corredorid": 42,
+            "carreraid": 2,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "0494"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 39,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "ab28"
+        },
+        {
+            "corredorid": 34,
+            "carreraid": 13,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "93a4"
+        },
+        {
+            "corredorid": 44,
+            "carreraid": 53,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "04e0"
+        },
+        {
+            "corredorid": 44,
+            "carreraid": 53,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "2c24"
+        },
+        {
+            "corredorid": 24,
+            "carreraid": 13,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "bd3a"
+        },
+        {
+            "corredorid": 12,
+            "carreraid": 44,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "44cb"
+        },
+        {
+            "corredorid": 33,
+            "carreraid": 81,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "d12f"
+        },
+        {
+            "corredorid": 36,
+            "carreraid": 43,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false,
+            "id": "41c2"
+        },
+        {
+            "corredorid": 1,
+            "carreraid": 1,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "c47a"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 1,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "9838"
+        },
+        {
+            "corredorid": 43,
+            "carreraid": 1,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "a259"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 35,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "030c"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 35,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "7914"
+        },
+        {
+            "corredorid": 38,
+            "carreraid": 1,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "97a3"
+        },
+        {
+            "corredorid": 2,
+            "carreraid": 35,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "83ca"
+        },
+        {
+            "corredorid": 18,
+            "carreraid": 45,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "b1e5"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 45,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "8706"
+        },
+        {
+            "corredorid": 37,
+            "carreraid": 45,
+            "temporada": 2027,
+            "etapa": true,
+            "crono": false,
+            "id": "12f4"
+        },
+        {
+            "corredorid": 5,
+            "carreraid": 45,
+            "temporada": 2027,
+            "etapa": false,
+            "crono": false
+        }
+    ]
+}

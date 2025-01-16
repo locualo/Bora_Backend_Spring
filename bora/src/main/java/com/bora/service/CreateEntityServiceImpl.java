@@ -21,6 +21,9 @@ import com.bora.op.comunes.Pais_DTO;
 import com.bora.op.comunes.Puestometro_DTO;
 import com.bora.op.comunes.Temporada_DTO;
 import com.bora.op.comunes.Victoria_DTO;
+import com.bora.op.legacy.CreatePuestometroLegacyIn;
+import com.bora.op.legacy.CreateVictoryLegacyIn;
+import com.bora.op.legacy.Posicion;
 import com.bora.repository.CarreraRepository;
 import com.bora.repository.CategoriaRepository;
 import com.bora.repository.CorredorRepository;
@@ -205,8 +208,60 @@ public class CreateEntityServiceImpl {
         try {
             puestometroRepository.save(puestometroModel);
         } catch (RuntimeException e) {
-            e.printStackTrace();
             throw new BoraException(BoraException.DatabaseExceptionType.DATABASE_ERROR_MESSAGE.getMessage(), e.getMessage());
+        }
+    }
+
+    public void createPuestometroLegacy(CreatePuestometroLegacyIn in) throws BoraException {
+        for (Posicion pos : in.getPosiciones()) {
+            Puestometro_DTO puestometro = new Puestometro_DTO();
+
+            puestometro.setPuesto(pos.getPuesto());
+
+            Carrera_DTO carrera = new Carrera_DTO();
+            carrera.setId(pos.getCarreraid());
+            puestometro.setCarrera(carrera);
+
+            Temporada_DTO temporada = new Temporada_DTO();
+            temporada.setId(pos.getTemporada());
+            puestometro.setTemporada(temporada);
+
+            Corredor_DTO corredor = new Corredor_DTO();
+            corredor.setId(pos.getCorredorid());
+            puestometro.setCorredor(corredor);
+
+            try {
+                createPuestometro(puestometro);
+            } catch (BoraException e) {
+                throw new BoraException(BoraException.DatabaseExceptionType.DATABASE_ERROR_MESSAGE.getMessage(), e.getMessage());
+            }
+        }
+    }
+
+    public void createVictoryLegacy(CreateVictoryLegacyIn in) throws BoraException {
+        for (Posicion pos : in.getPosiciones()) {
+            Victoria_DTO victoria = new Victoria_DTO();
+
+            Carrera_DTO carrera = new Carrera_DTO();
+            carrera.setId(pos.getCarreraid());
+            victoria.setCarreraDTO(carrera);
+
+            Temporada_DTO temporada = new Temporada_DTO();
+            temporada.setId(pos.getTemporada());
+            victoria.setTemporadaDTO(temporada);
+
+            Corredor_DTO corredor = new Corredor_DTO();
+            corredor.setId(pos.getCorredorid());
+            victoria.setCorredorDTO(corredor);
+
+            victoria.setEtapa(pos.isEtapa());
+            victoria.setTt(pos.isTt());
+
+            try {
+                createVictoria(victoria);
+            } catch (BoraException e) {
+                throw new BoraException(BoraException.DatabaseExceptionType.DATABASE_ERROR_MESSAGE.getMessage(), e.getMessage());
+            }
         }
     }
     
