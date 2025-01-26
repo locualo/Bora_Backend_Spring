@@ -25,7 +25,7 @@ public class TemporadaCorredor implements Serializable {
     @ManyToOne(fetch = FetchType.LAZY)
     private Temporada temporada;
     @JoinColumn(name = "corredor", nullable = false)
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Corredor corredor;
     @OneToMany(mappedBy = "temporadaCorredor")
     private List<Puestometro> puestometro;

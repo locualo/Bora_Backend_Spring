@@ -9,7 +9,11 @@ import com.bora.op.comunes.Pais_DTO;
 import com.bora.op.comunes.Puestometro_DTO;
 import com.bora.op.comunes.Temporada_DTO;
 import com.bora.op.comunes.Victoria_DTO;
+import com.bora.op.palmares.PalmaresSelectoPorTemporada;
 import com.bora.service.CreateEntityServiceImpl;
+import com.bora.service.ServiceImpl;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -22,6 +26,9 @@ class CreateTestIT {
 
     @Autowired
     private CreateEntityServiceImpl createEntityServiceImpl;
+
+    @Autowired
+    private ServiceImpl serviceImpl;
 
     @Disabled
     @Test
@@ -127,5 +134,17 @@ class CreateTestIT {
         puestometroDTO.setTemporada(new Temporada_DTO());
         puestometroDTO.getTemporada().setId(2028L);
         createEntityServiceImpl.createPuestometro(puestometroDTO);
+    }
+
+    @Test
+    void testPalmaresSelectoPorTemporada() {
+        // Arrange
+        int temporada = 2021;
+
+        // Act
+        PalmaresSelectoPorTemporada result = serviceImpl.palmaresSelectoPorTemporada(temporada, 0);
+
+        // Assert
+        assertNotNull(result);
     }
 }

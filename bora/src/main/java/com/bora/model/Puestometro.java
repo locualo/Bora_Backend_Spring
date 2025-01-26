@@ -19,7 +19,7 @@ public class Puestometro implements Serializable{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "carrera", nullable = false)
     private Carrera carrera;
     @Column(name = "puesto", nullable = false)

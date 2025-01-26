@@ -10,7 +10,9 @@ public class BoraException extends RuntimeException {
         CARRERA_NOT_FOUND("Carrera no encontrada."),
         CORREDOR_NOT_FOUND("Corredor no encontrado."),
         TEMPORADA_CORREDOR_NOT_FOUND("No se ha encontrado asociación entre temporada y corredor."),
-        VICTORIA_NOT_FOUND("Victoria no encontrada.");
+        VICTORIA_NOT_FOUND("Victoria no encontrada."),
+        PUNTUACION_CATEGORIA_NOT_FOUND("Puntuación de categoría no encontrada."),
+        PUNTUACION_CATEGORIA_MULTIPLE("Múltiples puntuaciones de categoría encontradas.");
 
         private final String message;
 

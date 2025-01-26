@@ -19,7 +19,7 @@ public class Victoria implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "carrera", nullable = false)
     private Carrera carrera;
     @ManyToOne(fetch = FetchType.LAZY)

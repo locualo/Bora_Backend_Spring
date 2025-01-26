@@ -22,6 +22,8 @@ public class Categoria implements Serializable {
     private String nombre;
     @OneToMany(mappedBy = "categoria")
     private List<Carrera> carreras;
+    @OneToMany(mappedBy = "categoria")
+    private List<PuntuacionCategoria> puntuacionCategoria;
 
     public Categoria() {
     }
@@ -50,4 +52,22 @@ public class Categoria implements Serializable {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    public List<Carrera> getCarreras() {
+        return carreras;
+    }
+
+    public void setCarreras(List<Carrera> carreras) {
+        this.carreras = carreras;
+    }
+
+    public List<PuntuacionCategoria> getPuntuacionCategoria() {
+        return puntuacionCategoria;
+    }
+
+    public void setPuntuacionCategoria(List<PuntuacionCategoria> puntuacionCategoria) {
+        this.puntuacionCategoria = puntuacionCategoria;
+    }
+
+    
 }

@@ -24,7 +24,7 @@ public class Carrera implements Serializable {
     @Column(name = "nombre", nullable = false, length = 100)
     private String nombre;
     @JoinColumn(name = "categoria", nullable = false)
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Categoria categoria;
     @Column(name = "worldtour", nullable = false)
     private boolean worldTour;

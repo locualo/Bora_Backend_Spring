@@ -5,6 +5,7 @@ DROP TABLE IF EXISTS CORREDOR;
 DROP TABLE IF EXISTS CARRERA;
 DROP TABLE IF EXISTS TEMPORADA;
 DROP TABLE IF EXISTS PAIS;
+DROP TABLE IF EXISTS PUNTUACION_CATEGORIA;
 DROP TABLE IF EXISTS CATEGORIA;
 
 CREATE TABLE PAIS (
@@ -183,7 +184,7 @@ INSERT INTO carrera VALUES (47, 'Vuelta a Andalucia', 12, FALSE, 14);
 INSERT INTO carrera VALUES (48, 'Tour Malasia', 12, FALSE, 22);
 INSERT INTO carrera VALUES (49, 'Nacional Polonia', 14, FALSE, 5);
 INSERT INTO carrera VALUES (50, 'Tour Yorkshire', 12, FALSE, 16);
-INSERT INTO carrera VALUES (51, 'GP Van Limburg', 16, FALSE, 10);
+INSERT INTO carrera VALUES (51, 'Ronde van Limburg', 16, FALSE, 10);
 INSERT INTO carrera VALUES (52, 'Norway Tour', 12, FALSE, 9);
 INSERT INTO carrera VALUES (53, 'Baloise Belgium Tour', 12, FALSE, 12);
 INSERT INTO carrera VALUES (54, 'Vuelta a Madrid', 15, FALSE, 14);
@@ -194,8 +195,8 @@ INSERT INTO carrera VALUES (58, 'Bredene Koksidje', 16, FALSE, 12);
 INSERT INTO carrera VALUES (59, 'Tour de Alemania', 12, FALSE, 1);
 INSERT INTO carrera VALUES (61, 'La Route Wallonne', 12, FALSE, 12);
 INSERT INTO carrera VALUES (62, 'Britain Tour', 12, FALSE, 16);
-INSERT INTO carrera VALUES (63, 'GP Vitré', 16, FALSE, 11);
-INSERT INTO carrera VALUES (64, 'GP Ciremi', 16, FALSE, 12);
+INSERT INTO carrera VALUES (63, 'Route Adélie de Vitré', 16, FALSE, 11);
+INSERT INTO carrera VALUES (64, 'Grand Prix Cerami', 16, FALSE, 12);
 INSERT INTO carrera VALUES (65, 'Saudi Tour', 15, FALSE, 24);
 INSERT INTO carrera VALUES (66, 'Skoda Tour de Luxembourg', 12, FALSE, 6);
 INSERT INTO carrera VALUES (67, 'Flecha Brabanzona', 13, FALSE, 12);
@@ -208,14 +209,14 @@ INSERT INTO carrera VALUES (73, 'Artic Race Norway', 12, FALSE, 9);
 INSERT INTO carrera VALUES (74, 'GP Sud Ardeche', 16, FALSE, 11);
 INSERT INTO carrera VALUES (75, 'Halle - Ingooigem', 16, FALSE, 12);
 INSERT INTO carrera VALUES (76, 'Tour de la Sarthe', 15, FALSE, 11);
-INSERT INTO carrera VALUES (77, 'GP Gippingen', 16, FALSE, 13);
-INSERT INTO carrera VALUES (78, 'GP Primavera', 16, FALSE, 14);
-INSERT INTO carrera VALUES (79, 'GP Navarra', 16, FALSE, 14);
+INSERT INTO carrera VALUES (77, 'Grosser Preis des Kantons Aargau', 16, FALSE, 13);
+INSERT INTO carrera VALUES (78, 'Klasika Primavera de Amorebieta', 16, FALSE, 14);
+INSERT INTO carrera VALUES (79, 'Gran Premio Miguel Indurain', 16, FALSE, 14);
 INSERT INTO carrera VALUES (80, 'Tour de Croacia', 15, FALSE, 25);
 INSERT INTO carrera VALUES (81, 'Nacional Italia', 14, FALSE, 3);
 INSERT INTO carrera VALUES (82, 'Nacional Australia', 14, FALSE, 7);
 INSERT INTO carrera VALUES (83, 'Nacional Italia ITT', 14, FALSE, 3);
-INSERT INTO carrera VALUES (84, 'GP Van Nokere', 13, FALSE, 12);
+INSERT INTO carrera VALUES (84, 'Danilith Nokere Koerse', 13, FALSE, 12);
 INSERT INTO carrera VALUES (85, 'Scheldetour Vlaanderen', 16, FALSE, 12);
 INSERT INTO carrera VALUES (86, 'Vuelta al Algarve', 12, FALSE, 15);
 INSERT INTO carrera VALUES (87, 'GP Hageland', 16, FALSE, 12);
@@ -241,6 +242,7 @@ INSERT INTO carrera VALUES (113, 'Nacional Holanda', 14, FALSE, 10);
 INSERT INTO carrera VALUES (114, 'Nacional Holanda ITT', 14, FALSE, 10);
 INSERT INTO carrera VALUES (115, 'Gran Piemonte', 13, FALSE, 3);
 INSERT INTO carrera VALUES (116, '4 Jours de Dunkerque', 12, FALSE, 11);
+INSERT INTO carrera VALUES (118, 'Grand Prix Cerami', 16, FALSE, 12);
 
 CREATE TABLE TEMPORADA (
     id INT PRIMARY KEY
@@ -1491,3 +1493,150 @@ INSERT INTO `victoria` (`id`, `carrera`, `temporada_corredor`, `etapa`, `tt`) VA
 (506, 45, 42, 1, 0),
 (507, 45, 146, 1, 0),
 (508, 45, 42, 0, 0);
+
+CREATE TABLE PUNTUACION_CATEGORIA (
+    id INT PRIMARY KEY,
+    categoria INT NOT NULL,
+    FOREIGN KEY (categoria) REFERENCES CATEGORIA(id),
+    puesto INT NOT NULL,
+    puntos INT NOT NULL
+);
+
+ALTER TABLE PUNTUACION_CATEGORIA MODIFY COLUMN id INT AUTO_INCREMENT;
+
+INSERT INTO PUNTUACION_CATEGORIA (categoria, puesto, puntos) VALUES
+(1, 1, 1300),
+(1, 2, 1040),
+(1, 3, 880),
+(1, 4, 750),
+(1, 5, 620),
+(1, 6, 520),
+(1, 7, 425),
+(1, 8, 360),
+(1, 9, 295),
+(1, 10, 230),
+(2, 1, 1100),
+(2, 2, 885),
+(2, 3, 750),
+(2, 4, 600),
+(2, 5, 495),
+(2, 6, 415),
+(2, 7, 340),
+(2, 8, 285),
+(2, 9, 235),
+(2, 10, 180),
+(3, 1, 800),
+(3, 2, 640),
+(3, 3, 520),
+(3, 4, 440),
+(3, 5, 360),
+(3, 6, 280),
+(3, 7, 240),
+(3, 8, 200),
+(3, 9, 160),
+(3, 10, 135),
+(4, 1, 900),
+(4, 2, 715),
+(4, 3, 600),
+(4, 4, 490),
+(4, 5, 410),
+(4, 6, 340),
+(4, 7, 265),
+(4, 8, 225),
+(4, 9, 190),
+(4, 10, 150),
+(5, 1, 500),
+(5, 2, 400),
+(5, 3, 325),
+(5, 4, 275),
+(5, 5, 225),
+(5, 6, 175),
+(5, 7, 150),
+(5, 8, 125),
+(5, 9, 100),
+(5, 10, 85),
+(6, 1, 400),
+(6, 2, 320),
+(6, 3, 260),
+(6, 4, 220),
+(6, 5, 180),
+(6, 6, 140),
+(6, 7, 120),
+(6, 8, 100),
+(6, 9, 80),
+(6, 10, 68),
+(7, 1, 500),
+(7, 2, 400),
+(7, 3, 325),
+(7, 4, 275),
+(7, 5, 225),
+(7, 6, 175),
+(7, 7, 150),
+(7, 8, 125),
+(7, 9, 100),
+(7, 10, 85),
+(8, 1, 300),
+(8, 2, 250),
+(8, 3, 215),
+(8, 4, 175),
+(8, 5, 120),
+(8, 6, 115),
+(8, 7, 95),
+(8, 8, 75),
+(8, 9, 60),
+(8, 10, 50),
+(9, 1, 200),
+(10, 1, 60),
+(11, 1, 50),
+(12, 1, 200),
+(12, 2, 150),
+(12, 3, 125),
+(12, 4, 100),
+(12, 5, 85),
+(12, 6, 70),
+(12, 7, 60),
+(12, 8, 50),
+(12, 9, 40),
+(12, 10, 35),
+(13, 1, 200),
+(13, 2, 150),
+(13, 3, 125),
+(13, 4, 100),
+(13, 5, 85),
+(13, 6, 70),
+(13, 7, 60),
+(13, 8, 50),
+(13, 9, 40),
+(13, 10, 35),
+(14, 1, 100),
+(14, 2, 75),
+(14, 3, 60),
+(14, 4, 50),
+(14, 5, 40),
+(14, 6, 30),
+(14, 7, 20),
+(14, 8, 10),
+(14, 9, 5),
+(14, 10, 3),
+(15, 1, 125),
+(15, 2, 85),
+(15, 3, 70),
+(15, 4, 60),
+(15, 5, 50),
+(15, 6, 40),
+(15, 7, 35),
+(15, 8, 30),
+(15, 9, 25),
+(15, 10, 20),
+(16, 1, 125),
+(16, 2, 85),
+(16, 3, 70),
+(16, 4, 60),
+(16, 5, 50),
+(16, 6, 40),
+(16, 7, 35),
+(16, 8, 30),
+(16, 9, 25),
+(16, 10, 20),
+(17, 1, 20),
+(18, 1, 14)
