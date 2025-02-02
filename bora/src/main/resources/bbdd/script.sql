@@ -79,9 +79,9 @@ INSERT INTO corredor VALUES (25, 'Ide Schelling', 'https://www.shutterstock.com/
 INSERT INTO corredor VALUES (26, 'Andreas Schillinger', 'https://ciclista.net/wp-content/uploads/2016/04/Andreas-Schillinger-Paris-Roubaix.jpg', 1, FALSE);
 INSERT INTO corredor VALUES (27, 'Michael Schwarzmann', 'https://img.gva.be/KvDQRoNViAXvkxt06UAyuV0MvBo=/fit-in/960x640/https%3A%2F%2Fstatic.gva.be%2FAssets%2FImages_Upload%2F2021%2F09%2F27%2Fb355a048-d504-4f0d-9c64-caaa818a21a7.jpg', 1, FALSE);
 INSERT INTO corredor VALUES (28, 'Rüdiger Selig', 'https://www.radsportkompakt.de/wp-content/uploads/2017/05/Selig_2017_bora-hansgrohe_veloimages.jpg', 1, FALSE);
-INSERT INTO corredor VALUES (29, 'Alberto Bettiol', NULL, 3, FALSE);
+INSERT INTO corredor VALUES (29, 'Alberto Bettiol', 'https://cdn.mos.cms.futurecdn.net/ka96xHrR4Rq9ud2ikPcs4V-1024-80.jpg', 3, FALSE);
 INSERT INTO corredor VALUES (32, 'Andreas Leknessund', NULL, 9, FALSE);
-INSERT INTO corredor VALUES (33, 'Fausto Masnada', NULL, 3, FALSE);
+INSERT INTO corredor VALUES (33, 'Fausto Masnada', 'https://www.mundodeportivo.com/files/article_main_microformat/files/fp/uploads/2022/02/13/6208e23c0dbdc.r_d.1767-1240-2930.jpeg', 3, FALSE);
 INSERT INTO corredor VALUES (34, 'Chris Scheunert', NULL, 1, FALSE);
 INSERT INTO corredor VALUES (35, 'Ben Zwiehoff', NULL, 1, FALSE);
 INSERT INTO corredor VALUES (36, 'Luis-Joe Lührs', NULL, 1, FALSE);
@@ -90,9 +90,9 @@ INSERT INTO corredor VALUES (38, 'Matteo Moschetti', NULL, 3, FALSE);
 INSERT INTO corredor VALUES (39, 'Jasha Sütterlin', NULL, 1, FALSE);
 INSERT INTO corredor VALUES (40, 'Emil Herzog', NULL, 1, FALSE);
 INSERT INTO corredor VALUES (41, 'Adrian Banaszek', NULL, 5, FALSE);
-INSERT INTO corredor VALUES (42, 'Thymen Arensman', NULL, 10, FALSE);
-INSERT INTO corredor VALUES (43, 'Gianni Moscon', NULL, 3, FALSE);
-INSERT INTO corredor VALUES (44, 'Nils Politt', NULL, 1, FALSE);
+INSERT INTO corredor VALUES (42, 'Thymen Arensman', 'https://cyclingfantasy.cc/_next/image?url=https%3A%2F%2Fd3g42de5vbfx19.cloudfront.net%2Frider%2Favatars%2Fsquare%2Fmedium%2FNE2EzZ_arensman-thymen.jpeg&w=384&q=75', 10, FALSE);
+INSERT INTO corredor VALUES (43, 'Gianni Moscon', 'https://joanseguidor.com/wp-content/uploads/2020/03/gianni-moscon.jpg', 3, FALSE);
+INSERT INTO corredor VALUES (44, 'Nils Politt', 'https://i.eurosport.com/2023/08/03/3756166-76413248-2560-1440.jpg', 1, FALSE);
 INSERT INTO corredor VALUES (45, 'Jasha Sütterlin', NULL, 1, FALSE);
 INSERT INTO corredor VALUES (46, 'Phil Bauhaus', NULL, 1, FALSE);
 INSERT INTO corredor VALUES (47, 'Kevin Colleoni', NULL, 3, FALSE);
@@ -969,7 +969,12 @@ INSERT INTO `puestometro` (`id`, `puesto`, `carrera`, `temporada_corredor`) VALU
 (630, 10, 35, 42),
 (333, 10, 35, 65),
 (562, 10, 35, 77),
-(622, 10, 83, 215);
+(622, 10, 83, 215),
+(635, 1, 30, 9),
+(636, 8, 30, 215),
+(637, 2, 32, 105),
+(638, 5, 32, 18),
+(639, 9, 32, 60);
 
 
 CREATE TABLE VICTORIA (
@@ -1492,7 +1497,8 @@ INSERT INTO `victoria` (`id`, `carrera`, `temporada_corredor`, `etapa`, `tt`) VA
 (505, 45, 114, 1, 0),
 (506, 45, 42, 1, 0),
 (507, 45, 146, 1, 0),
-(508, 45, 42, 0, 0);
+(508, 45, 42, 0, 0),
+(509, 30, 9, 0, 0);
 
 CREATE TABLE PUNTUACION_CATEGORIA (
     id INT PRIMARY KEY,
@@ -1565,16 +1571,16 @@ INSERT INTO PUNTUACION_CATEGORIA (categoria, puesto, puntos) VALUES
 (6, 8, 100),
 (6, 9, 80),
 (6, 10, 68),
-(7, 1, 500),
-(7, 2, 400),
-(7, 3, 325),
-(7, 4, 275),
-(7, 5, 225),
-(7, 6, 175),
-(7, 7, 150),
-(7, 8, 125),
-(7, 9, 100),
-(7, 10, 85),
+(7, 1, 300),
+(7, 2, 250),
+(7, 3, 215),
+(7, 4, 175),
+(7, 5, 120),
+(7, 6, 115),
+(7, 7, 95),
+(7, 8, 75),
+(7, 9, 60),
+(7, 10, 50),
 (8, 1, 300),
 (8, 2, 250),
 (8, 3, 215),

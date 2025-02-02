@@ -82,6 +82,7 @@ public class ServiceImpl {
         Corredor_DTO corredor = new Corredor_DTO();
         corredor.setNombre(tc.getCorredor().getNombre());
         corredor.setId(tc.getCorredor().getId());
+        corredor.setFoto(tc.getCorredor().getfotoURL());
 
         List<Logro_DTO> logros = new ArrayList<>();
         Map<Long, Victoria_DTO> carreraPuntosVictoria = new HashMap<>();

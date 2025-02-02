@@ -8,6 +8,7 @@ public class Corredor_DTO implements Serializable {
     private Long id;
     private String nombre;
     private int puntosTotales;
+    private String foto;
 
     public List<Logro_DTO> getLogros() {
         return logros;
@@ -39,6 +40,14 @@ public class Corredor_DTO implements Serializable {
 
     public void setPuntosTotales(int puntosTotales) {
         this.puntosTotales = puntosTotales;
+    }
+
+    public String getFoto() {
+        return foto;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
     }
 }
 
