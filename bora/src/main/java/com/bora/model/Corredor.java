@@ -26,7 +26,7 @@ public class Corredor implements Serializable{
     @Column(name = "fotoURL", length = 300)
     private String fotoURL;
     @JoinColumn(name = "pais", nullable = false)
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Pais pais;
     @OneToMany(mappedBy = "corredor", fetch = FetchType.LAZY)
     private List<TemporadaCorredor> temporadaCorredor;

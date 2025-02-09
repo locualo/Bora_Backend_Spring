@@ -5,23 +5,31 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bora.excepciones.BoraException;
+import com.bora.model.Carrera;
 import com.bora.model.Corredor;
 import com.bora.model.Pais;
 import com.bora.model.Puestometro;
 import com.bora.model.PuntuacionCategoria;
 import com.bora.model.TemporadaCorredor;
 import com.bora.model.Victoria;
-import com.bora.op.CorredorPorNombre;
+import com.bora.op.carrera.EntradaRecuperarCarrera;
+import com.bora.op.carrera.SalidaRecuperarCarrera;
+import com.bora.op.comunes.Carrera_DTO;
+import com.bora.op.comunes.Categoria_DTO;
+import com.bora.op.comunes.Pais_DTO;
+import com.bora.op.corredor.CorredorPorNombre;
 import com.bora.op.palmares.Corredor_DTO;
 import com.bora.op.palmares.Logro_DTO;
 import com.bora.op.palmares.PalmaresSelectoPorTemporada;
 import com.bora.op.palmares.Puestometro_DTO;
 import com.bora.op.palmares.Victoria_DTO;
+import com.bora.repository.CarreraRepository;
 import com.bora.repository.CorredorRepository;
 import com.bora.repository.PaisRepository;
 import com.bora.repository.PuestometroRepository;
@@ -31,9 +39,7 @@ import com.bora.repository.VictoriaRepository;
 import com.bora.service.util.Constants;
 
 @Service
-public class ServiceImpl {
-
-    @Autowired
+public class ServiceImpl {    @Autowired
     private CorredorRepository corredorRepository;
 
     @Autowired
@@ -51,6 +57,9 @@ public class ServiceImpl {
     @Autowired
     private PuestometroRepository puestometroRepository;
 
+    @Autowired
+    private CarreraRepository carreraRepository;
+
     public Corredor recuperarCorredorPorNombre(CorredorPorNombre nombre) {
         return corredorRepository.findCorredorByName(null);
     }
@@ -58,7 +67,8 @@ public class ServiceImpl {
     public CorredorPorNombre recuperarTodosLosCorredores() {
         List<Corredor> corredores = corredorRepository.findAll();
         CorredorPorNombre corredoresPorNombre = new CorredorPorNombre();
-        corredoresPorNombre.setNombre(corredores.stream().map(Corredor::getNombre).toList());
+        corredores.sort((c1, c2) -> c1.getNombre().compareToIgnoreCase(c2.getNombre()));
+        corredoresPorNombre.setCorredores(corredores.stream().map(this::mapCorredor).toList());
         return corredoresPorNombre;
     }
 
@@ -176,6 +186,62 @@ public class ServiceImpl {
         if (!pc.isPresent()) {
             throw new BoraException(BoraException.DatabaseExceptionType.PUNTUACION_CATEGORIA_NOT_FOUND.getMessage());
         }
+    }
+
+    public SalidaRecuperarCarrera recuperarCarreras(EntradaRecuperarCarrera in) {
+        List<Carrera> carrerasModel;
+        if(in.isWorldTour()){
+            carrerasModel = carreraRepository.findCarreraWorldTour();
+        }else{
+            carrerasModel = carreraRepository.findAll();
+        }
+
+        if(in.getIdCategoria() != null){
+            carrerasModel = carrerasModel.stream().filter(c -> c.getCategoria().getId() == in.getIdCategoria()).toList();
+        }
+
+         List<Carrera_DTO> carreras = carrerasModel.stream()
+                .map(this::mapCarrera)
+                .sorted((c1, c2) -> c1.getNombre().compareToIgnoreCase(c2.getNombre()))
+                .toList();
+         SalidaRecuperarCarrera salida = new SalidaRecuperarCarrera();
+         salida.setCarreras(carreras);
+         return salida;
+    }
+
+    private Carrera_DTO mapCarrera(Carrera c) {
+        Carrera_DTO carrera = new Carrera_DTO();
+        carrera.setId(c.getId());
+        carrera.setNombre(c.getNombre());
+        carrera.setWorldTour(c.isWorldTour());
+
+        Categoria_DTO categoria = new Categoria_DTO();
+        categoria.setId(c.getCategoria().getId());
+        categoria.setCodigo(c.getCategoria().getNombre());
+
+        carrera.setCategoria(categoria);
+        
+        Pais_DTO pais = new Pais_DTO();
+        pais.setCodigo(c.getPais().getId());
+        pais.setNombre(c.getPais().getNombre());
+
+        carrera.setPais(pais);
+        return carrera;
+    }
+
+    private com.bora.op.comunes.Corredor_DTO mapCorredor(Corredor corredor) {
+        com.bora.op.comunes.Corredor_DTO corredorDTO = new com.bora.op.comunes.Corredor_DTO();
+        corredorDTO.setId(corredor.getId());
+        corredorDTO.setNombre(corredor.getNombre());
+        corredorDTO.setSeHaDopadoAlgunaVez(false);
+        corredorDTO.setFotoURL(corredor.getfotoURL());
+
+        Pais_DTO pais = new Pais_DTO();
+        pais.setCodigo(corredor.getPais().getId());
+        pais.setNombre(corredor.getPais().getNombre());
+
+        corredorDTO.setPais(pais);
+        return corredorDTO;
     }
 
 }

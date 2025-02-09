@@ -1,6 +1,8 @@
 package com.bora;
 
 import com.bora.excepciones.BoraException;
+import com.bora.op.carrera.EntradaRecuperarCarrera;
+import com.bora.op.carrera.SalidaRecuperarCarrera;
 import com.bora.op.comunes.Carrera_DTO;
 import com.bora.op.comunes.Categoria_DTO;
 import com.bora.op.comunes.Corredor_DTO;
@@ -13,7 +15,10 @@ import com.bora.op.palmares.PalmaresSelectoPorTemporada;
 import com.bora.service.CreateEntityServiceImpl;
 import com.bora.service.ServiceImpl;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import java.util.List;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -126,25 +131,69 @@ class CreateTestIT {
     @Test
     void testCreatePuestometro() {
         Puestometro_DTO puestometroDTO = new Puestometro_DTO();
-        puestometroDTO.setPuesto(10);
+        puestometroDTO.setPuesto(5);
         puestometroDTO.setCarrera(new Carrera_DTO());
-        puestometroDTO.getCarrera().setId(1L);
+        puestometroDTO.getCarrera().setId(26L);
         puestometroDTO.setCorredor(new Corredor_DTO());
-        puestometroDTO.getCorredor().setId(43L);
+        puestometroDTO.getCorredor().setId(12L);
         puestometroDTO.setTemporada(new Temporada_DTO());
-        puestometroDTO.getTemporada().setId(2028L);
+        puestometroDTO.getTemporada().setId(2027L);
         createEntityServiceImpl.createPuestometro(puestometroDTO);
     }
 
     @Test
     void testPalmaresSelectoPorTemporada() {
         // Arrange
-        int temporada = 2021;
+        int temporada = 2020;
 
         // Act
         PalmaresSelectoPorTemporada result = serviceImpl.palmaresSelectoPorTemporada(temporada, 0);
 
         // Assert
         assertNotNull(result);
+    }
+
+    @Test
+    void recuperarCarreras() {
+        // Arrange
+        // Act
+        SalidaRecuperarCarrera salida;
+        EntradaRecuperarCarrera in = new EntradaRecuperarCarrera();
+        in.setWorldTour(false);
+        in.setIdCategoria(null);
+        salida = serviceImpl.recuperarCarreras(in);
+
+        // Assert
+        assertNotNull(salida);
+        assertFalse(salida.getCarreras().isEmpty(), "La lista de carreras no debería estar vacía");
+
+        // WorldTour
+        in.setWorldTour(true);
+        in.setIdCategoria(null);
+        salida = serviceImpl.recuperarCarreras(in);
+
+        // Assert
+        assertNotNull(salida);
+        assertFalse(salida.getCarreras().isEmpty(), "La lista de carreras no debería estar vacía");
+
+        // Categoria
+        in.setWorldTour(false);
+        in.setIdCategoria(5L);
+        salida = serviceImpl.recuperarCarreras(in);
+
+        // Assert
+        assertNotNull(salida);
+        assertFalse(salida.getCarreras().isEmpty(), "La lista de carreras no debería estar vacía");
+    }
+
+    @Test
+    void recuperarCorredores() {
+        // Arrange
+        // Act
+        List<Corredor_DTO> corredores = serviceImpl.recuperarTodosLosCorredores().getCorredores();
+
+        // Assert
+        assertNotNull(corredores);
+        assertFalse(corredores.isEmpty(), "La lista de corredores no debería estar vacía");
     }
 }

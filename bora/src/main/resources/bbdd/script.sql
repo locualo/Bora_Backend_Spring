@@ -41,6 +41,7 @@ INSERT INTO pais VALUES (23, 'Turquía');
 INSERT INTO pais VALUES (24, 'Arabia Saudí');
 INSERT INTO pais VALUES (25, 'Croacia');
 INSERT INTO pais VALUES (26, 'Eslovenia');
+INSERT INTO pais VALUES (27, 'Colombia');
 
 CREATE TABLE CORREDOR (
     id INT PRIMARY KEY,
@@ -87,7 +88,6 @@ INSERT INTO corredor VALUES (35, 'Ben Zwiehoff', NULL, 1, FALSE);
 INSERT INTO corredor VALUES (36, 'Luis-Joe Lührs', NULL, 1, FALSE);
 INSERT INTO corredor VALUES (37, 'Giovanni Aleotti', NULL, 3, FALSE);
 INSERT INTO corredor VALUES (38, 'Matteo Moschetti', NULL, 3, FALSE);
-INSERT INTO corredor VALUES (39, 'Jasha Sütterlin', NULL, 1, FALSE);
 INSERT INTO corredor VALUES (40, 'Emil Herzog', NULL, 1, FALSE);
 INSERT INTO corredor VALUES (41, 'Adrian Banaszek', NULL, 5, FALSE);
 INSERT INTO corredor VALUES (42, 'Thymen Arensman', 'https://cyclingfantasy.cc/_next/image?url=https%3A%2F%2Fd3g42de5vbfx19.cloudfront.net%2Frider%2Favatars%2Fsquare%2Fmedium%2FNE2EzZ_arensman-thymen.jpeg&w=384&q=75', 10, FALSE);
@@ -167,10 +167,10 @@ INSERT INTO carrera VALUES (30, 'BEMER Cyclassics', 6, TRUE, 1);
 INSERT INTO carrera VALUES (31, 'Cadel Evans Great Ocean Road Race', 8, TRUE, 7);
 INSERT INTO carrera VALUES (32, 'London Classic', 8, TRUE, 16);
 INSERT INTO carrera VALUES (33, 'Santos Tour Down Under', 7, TRUE, 7);
-INSERT INTO carrera VALUES (34, 'UAE Tour', 7, TRUE, 15);
+INSERT INTO carrera VALUES (34, 'UAE Tour', 7, TRUE, 19);
 INSERT INTO carrera VALUES (35, 'Tour de Polonia', 7, TRUE, 5);
 INSERT INTO carrera VALUES (36, 'Renewi Tour', 7, TRUE, 6);
-INSERT INTO carrera VALUES (37, 'Gree-Tour of Guangxi', 7, TRUE, 6);
+INSERT INTO carrera VALUES (37, 'Gree-Tour of Guangxi', 7, TRUE, 20);
 INSERT INTO carrera VALUES (38, 'Vuelta a Asturias', 15, FALSE, 14);
 INSERT INTO carrera VALUES (39, 'La Classique du Ventoux', 16, FALSE, 11);
 INSERT INTO carrera VALUES (40, 'Czech Tour', 15, FALSE, 21);
@@ -232,7 +232,7 @@ INSERT INTO carrera VALUES (103, 'Route Poitou-Charentes', 15, FALSE, 11);
 INSERT INTO carrera VALUES (104, 'SUPER 8 Classic', 16, FALSE, 12);
 INSERT INTO carrera VALUES (105, 'Chrono des Nations', 16, FALSE, 11);
 INSERT INTO carrera VALUES (106, 'Volta a la Comunitat Valenciana', 15, FALSE, 14);
-INSERT INTO carrera VALUES (107, 'Tour Colombia', 15, FALSE, 13);
+INSERT INTO carrera VALUES (107, 'Tour Colombia', 15, FALSE, 27);
 INSERT INTO carrera VALUES (108, 'Trofeo Laigueglia', 13, FALSE, 3);
 INSERT INTO carrera VALUES (109, 'Kuurne-Brussel-Kuurne', 13, FALSE, 12);
 INSERT INTO carrera VALUES (110, 'Le Samyn', 16, FALSE, 12);
@@ -242,7 +242,6 @@ INSERT INTO carrera VALUES (113, 'Nacional Holanda', 14, FALSE, 10);
 INSERT INTO carrera VALUES (114, 'Nacional Holanda ITT', 14, FALSE, 10);
 INSERT INTO carrera VALUES (115, 'Gran Piemonte', 13, FALSE, 3);
 INSERT INTO carrera VALUES (116, '4 Jours de Dunkerque', 12, FALSE, 11);
-INSERT INTO carrera VALUES (118, 'Grand Prix Cerami', 16, FALSE, 12);
 
 CREATE TABLE TEMPORADA (
     id INT PRIMARY KEY
@@ -422,10 +421,6 @@ INSERT INTO temporada_corredor VALUES (153, 41, 2023);
 INSERT INTO temporada_corredor VALUES (154, 41, 2022);
 INSERT INTO temporada_corredor VALUES (155, 41, 2021);
 INSERT INTO temporada_corredor VALUES (156, 40, 2027);
-INSERT INTO temporada_corredor VALUES (157, 39, 2024);
-INSERT INTO temporada_corredor VALUES (158, 39, 2025);
-INSERT INTO temporada_corredor VALUES (159, 39, 2026);
-INSERT INTO temporada_corredor VALUES (160, 39, 2027);
 INSERT INTO temporada_corredor VALUES (161, 38, 2021);
 INSERT INTO temporada_corredor VALUES (162, 38, 2022);
 INSERT INTO temporada_corredor VALUES (163, 38, 2023);
@@ -974,7 +969,10 @@ INSERT INTO `puestometro` (`id`, `puesto`, `carrera`, `temporada_corredor`) VALU
 (636, 8, 30, 215),
 (637, 2, 32, 105),
 (638, 5, 32, 18),
-(639, 9, 32, 60);
+(639, 9, 32, 60),
+(640, 2, 26, 227),
+(641, 3, 26, 190),
+(642, 5, 26, 78);
 
 
 CREATE TABLE VICTORIA (

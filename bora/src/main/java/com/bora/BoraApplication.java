@@ -12,14 +12,17 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import com.bora.model.Corredor;
 import com.bora.model.Pais;
-import com.bora.op.CorredorPorNombre;
+import com.bora.op.carrera.EntradaRecuperarCarrera;
+import com.bora.op.carrera.SalidaRecuperarCarrera;
+import com.bora.op.corredor.CorredorPorNombre;
 import com.bora.op.legacy.CreatePuestometroLegacyIn;
 import com.bora.op.legacy.CreateVictoryLegacyIn;
 import com.bora.op.palmares.PalmaresSelectoPorTemporada;
 import com.bora.service.CreateEntityServiceImpl;
 import com.bora.service.ServiceImpl;
+
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
@@ -43,7 +46,7 @@ public class BoraApplication {
 		return "hola mundo";
 	}
 
-	@RequestMapping("/todos")
+	@GetMapping("/recuperarCorredores")
 	public ResponseEntity<CorredorPorNombre> recuperarCorredores() {
 		return ResponseEntity.ok().body(service.recuperarTodosLosCorredores());
 	}
@@ -51,11 +54,6 @@ public class BoraApplication {
 	@RequestMapping("/todospaises")
 	public List<Pais> recuperarPaises() {
 		return service.recuperarTodosLosPaises();
-	}
-
-	@PostMapping("/corredor")
-	public Corredor postMethodName(@RequestBody CorredorPorNombre entity) {
-		return service.recuperarCorredorPorNombre(entity);
 	}
 
 	@PostMapping("/createPuestometroLegacy")
@@ -71,6 +69,11 @@ public class BoraApplication {
 	@PostMapping("/palmaresTemporada")
 	public ResponseEntity<PalmaresSelectoPorTemporada> palmaresTemporada(@RequestBody int idTemporada) {
 		return ResponseEntity.ok().body(service.palmaresSelectoPorTemporada(idTemporada, 0));
+	}
+
+	@PostMapping("/recuperarCarreras")
+	public ResponseEntity<SalidaRecuperarCarrera> recuperarCarreras(@RequestBody EntradaRecuperarCarrera in) {
+		return ResponseEntity.ok().body(service.recuperarCarreras(in));
 	}
 
 	@Bean

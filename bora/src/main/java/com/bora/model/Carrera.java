@@ -29,7 +29,7 @@ public class Carrera implements Serializable {
     @Column(name = "worldtour", nullable = false)
     private boolean worldTour;
     @JoinColumn(name = "pais", nullable = false)
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne(fetch = FetchType.EAGER)
     private Pais pais;
     @OneToMany(mappedBy = "carrera")
     private List<Puestometro> puestometro;
