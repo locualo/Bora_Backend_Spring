@@ -137,7 +137,8 @@ public class ServiceImpl {    @Autowired
 
         carreraPuntosVictoria.forEach((_, v) -> logros.add(v));
 
-        victoriaModel.stream().filter(p -> !p.isEtapa() && !p.getCarrera().isWorldTour()).forEach(v -> {
+        victoriaModel.stream().filter(p -> !p.isEtapa() && !p.getCarrera().isWorldTour() && p.getCarrera().getCategoria().getId().compareTo(Constants.NC) != 0
+        ).forEach(v -> {
             Optional<PuntuacionCategoria> pc = puntuacionCategoriaRepository.findPuntuacionCategoriaByCategoriaAndPuesto(v.getCarrera().getCategoria().getId(), 
             Constants.PrimerPuesto);
             validarPuntuacionCategoriaPuestometro(pc);
