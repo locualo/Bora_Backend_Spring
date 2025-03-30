@@ -6,7 +6,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import com.bora.model.Corredor;
 import com.bora.model.TemporadaCorredor;
 
 @Repository
@@ -16,4 +15,7 @@ public interface TemporadaCorredorRepository extends JpaRepository<TemporadaCorr
 
     @Query("SELECT tc FROM TemporadaCorredor tc WHERE tc.temporada.id =:temporada")
     public List<TemporadaCorredor> findCorredoresByTemporada(int temporada);
+    
+    @Query("SELECT tc FROM TemporadaCorredor tc WHERE tc.corredor.id =:idCorredor")
+    public List<TemporadaCorredor> findTemporadasByCorredor(Long idCorredor);
 }

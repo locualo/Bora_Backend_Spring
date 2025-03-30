@@ -5,6 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +20,8 @@ import com.bora.op.carrera.SalidaRecuperarCarrera;
 import com.bora.op.corredor.CorredorPorNombre;
 import com.bora.op.legacy.CreatePuestometroLegacyIn;
 import com.bora.op.legacy.CreateVictoryLegacyIn;
+import com.bora.op.logroscorredor.LogrosPorCorredor_IN;
+import com.bora.op.logroscorredor.LogrosPorCorredor_OUT;
 import com.bora.op.palmares.PalmaresSelectoPorTemporada;
 import com.bora.service.CreateEntityServiceImpl;
 import com.bora.service.ServiceImpl;
@@ -29,7 +33,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @SpringBootApplication
 @RestController
-public class BoraApplication {
+public class BoraApplication extends SpringBootServletInitializer{
 
 	@Autowired
 	private ServiceImpl service;
@@ -40,6 +44,11 @@ public class BoraApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BoraApplication.class, args);
 	}
+
+	@Override
+  	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+      return builder.sources(BoraApplication.class);
+  	}
 
 	@RequestMapping("/hola")
 	public String hello() {
@@ -74,6 +83,11 @@ public class BoraApplication {
 	@PostMapping("/recuperarCarreras")
 	public ResponseEntity<SalidaRecuperarCarrera> recuperarCarreras(@RequestBody EntradaRecuperarCarrera in) {
 		return ResponseEntity.ok().body(service.recuperarCarreras(in));
+	}
+
+	@PostMapping("/logrosPorCorredor")
+	public ResponseEntity<LogrosPorCorredor_OUT> logrosPorCorredor(@RequestBody LogrosPorCorredor_IN in) {
+		return ResponseEntity.ok().body(service.logrosPorCorredor(in));
 	}
 
 	@Bean

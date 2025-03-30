@@ -11,6 +11,8 @@ import com.bora.op.comunes.Pais_DTO;
 import com.bora.op.comunes.Puestometro_DTO;
 import com.bora.op.comunes.Temporada_DTO;
 import com.bora.op.comunes.Victoria_DTO;
+import com.bora.op.logroscorredor.LogrosPorCorredor_IN;
+import com.bora.op.logroscorredor.LogrosPorCorredor_OUT;
 import com.bora.op.palmares.PalmaresSelectoPorTemporada;
 import com.bora.service.CreateEntityServiceImpl;
 import com.bora.service.ServiceImpl;
@@ -195,5 +197,20 @@ class CreateTestIT {
         // Assert
         assertNotNull(corredores);
         assertFalse(corredores.isEmpty(), "La lista de corredores no debería estar vacía");
+    }
+
+    @Test
+    void testLogrosPorCorredor() {
+        // Arrange
+        LogrosPorCorredor_IN input = new LogrosPorCorredor_IN();
+        input.setIdCorredor(1L); // Assuming a corredor with ID 1 exists in the test database
+
+        // Act
+        LogrosPorCorredor_OUT result = serviceImpl.logrosPorCorredor(input);
+
+        // Assert
+        assertNotNull(result, "The result should not be null");
+        assertNotNull(result.getLogros(), "The logros list should not be null");
+        assertFalse(result.getLogros().isEmpty(), "The logros list should not be empty");
     }
 }
